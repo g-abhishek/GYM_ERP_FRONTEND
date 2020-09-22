@@ -1,6 +1,7 @@
 {
   "name": "paper-dashboard-react",
-  "version": "1.2.0",
+  "version": "1.2.0",  
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^1.6.11",
