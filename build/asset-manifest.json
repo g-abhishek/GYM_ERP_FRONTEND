@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01f687a4.chunk.css",
+    "main.js": "/static/js/main.a02466bc.chunk.js",
+    "main.js.map": "/static/js/main.a02466bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3a289f92.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3a289f92.js.map",
+    "static/css/2.cc733ddd.chunk.css": "/static/css/2.cc733ddd.chunk.css",
+    "static/js/2.b1d6545f.chunk.js": "/static/js/2.b1d6545f.chunk.js",
+    "static/js/2.b1d6545f.chunk.js.map": "/static/js/2.b1d6545f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9f6b723eb860efb2d04c6f6cac782c00.js": "/precache-manifest.9f6b723eb860efb2d04c6f6cac782c00.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cc733ddd.chunk.css.map": "/static/css/2.cc733ddd.chunk.css.map",
+    "static/css/main.01f687a4.chunk.css.map": "/static/css/main.01f687a4.chunk.css.map",
+    "static/js/2.b1d6545f.chunk.js.LICENSE.txt": "/static/js/2.b1d6545f.chunk.js.LICENSE.txt",
+    "static/media/PaymentReceipt.pdf": "/static/media/PaymentReceipt.fc448886.pdf",
+    "static/media/abdul.jpeg": "/static/media/abdul.085828ee.jpeg",
+    "static/media/amar.jpeg": "/static/media/amar.c3a17ec1.jpeg",
+    "static/media/ashish.jpeg": "/static/media/ashish.a7d671ac.jpeg",
+    "static/media/chirag.jpeg": "/static/media/chirag.dfe1a427.jpeg",
+    "static/media/excel-template.xlsx": "/static/media/excel-template.6bcc770e.xlsx",
+    "static/media/karan.png": "/static/media/karan.980bb530.png",
+    "static/media/katariya.jpg": "/static/media/katariya.62ce009e.jpg",
+    "static/media/kumar.jpeg": "/static/media/kumar.a32b478e.jpeg",
+    "static/media/demo.css": "/static/media/login-bg.6737ce3b.jpg",
+    "static/media/logo.jpg": "/static/media/logo.a694a019.jpg",
+    "static/media/paper-dashboard.scss?v=1.2.0": "/static/media/nucleo-icons.f32ed5ad.eot",
+    "static/media/parag.jpg": "/static/media/parag.04efe35e.jpg",
+    "static/media/sitanshu.png": "/static/media/sitanshu.17da13f2.png",
+    "static/media/srini.jpeg": "/static/media/srini.370bd536.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a289f92.js",
+    "static/css/2.cc733ddd.chunk.css",
+    "static/js/2.b1d6545f.chunk.js",
+    "static/css/main.01f687a4.chunk.css",
+    "static/js/main.a02466bc.chunk.js"
+  ]
+}
