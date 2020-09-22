@@ -1,0 +1,8 @@
+.pagination{
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
