@@ -11,7 +11,6 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 
 import AdminLayout from "layouts/Admin.js";
 import ReactNotification from 'react-notifications-component'
-import { store } from 'react-notifications-component';
 import 'react-notifications-component/dist/theme.css'
 import InvoiceLayout from "./views/InvoiceComponent/App";
 import ExamplePrint from "./views/InvoiceComponent/ExamplePrint";
