@@ -1,8 +1,7 @@
 {
   "name": "paper-dashboard-react",
   "version": "1.2.0",
-  "homepage": "./",
-  "main": "public/electron.js",
+  "main": "src/index.js",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^1.6.11",
@@ -12,7 +11,6 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "chart.js": "2.9.3",
-    "electron-is-dev": "^1.2.0",
     "font-awesome": "^4.7.0",
     "history": "4.10.1",
     "mdbreact": "^4.27.0",
@@ -56,14 +54,11 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "react-scripts start",
     "react-build": "react-scripts build && gulp licenses",
-    "electron-build": "electron-builder",
-    "build": "npm run react-build && npm run electron-build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
     "minify-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true",
-    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && electron .\""
+    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -84,8 +79,6 @@
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "electron": "^10.1.2",
-    "electron-builder": "^22.8.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "wait-on": "^5.2.0"
