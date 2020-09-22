@@ -1,7 +1,6 @@
 {
   "name": "paper-dashboard-react",
   "version": "1.2.0",
-  "main": "src/index.js",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^1.6.11",
@@ -49,11 +48,8 @@
   },
   "proxy": "https://gym-erp-backend.herokuapp.com/",
   "scripts": {
-    "client": "npm start",
-    "server": "cd Server && node server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "react-scripts start",
-    "react-build": "react-scripts build && gulp licenses",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
